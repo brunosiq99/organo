@@ -1,0 +1,16 @@
+.team{
+    padding: 2rem 0;
+    text-align: center;
+}
+.team h3{
+    border-bottom: 0.25rem solid #57c278;
+    display: inline-block;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.team .employees{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}

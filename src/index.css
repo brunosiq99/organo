@@ -1,0 +1,28 @@
+:root{
+  /* Main colors */
+  --color-main1: #6278ff;
+  --color-main2: #95ffd4;
+  --color-main3: #f2f2f2;
+  --color-FormButton: #6275f7;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  padding: 0 4rem;
+}
+@media screen and (max-width:568px) {
+  .container{
+    padding: 0 2rem;
+  }
+}

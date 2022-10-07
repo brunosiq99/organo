@@ -1,0 +1,19 @@
+footer{
+    background-color: var(--color-main1);
+    background-image: url('../../../public/img/fundo.png');
+}
+footer .footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+footer .social-media img{
+    margin-right: 2rem;
+}
+footer .developed p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #fff;
+}
